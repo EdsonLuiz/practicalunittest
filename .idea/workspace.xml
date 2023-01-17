@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df5b3dc6-7b0d-46b7-836e-b2503a4cc90d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MoneyIAETest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ch04/FootballTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ch04/FootballTeamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Money.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.ch04" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -58,12 +61,19 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoneyIAETest.constructorShouldThrowIAEForInvalidAmount">
-    <configuration name="HelloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FootballTeamTest.constructorShouldSetGamesWon">
+    <configuration name="FootballTeamTest.constructorShouldSetGamesWon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicaltest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HelloTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ch04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ch04" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ch04.FootballTeamTest" />
+      <option name="METHOD_NAME" value="constructorShouldSetGamesWon" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FootballTeamTest.constructorShouldSetGamesWon" />
         <item itemvalue="JUnit.MoneyIAETest.constructorShouldThrowIAEForInvalidAmount" />
         <item itemvalue="JUnit.MoneyManyParamsAnnotationTest" />
         <item itemvalue="JUnit.MoneyOneParamAnnotationTest" />
         <item itemvalue="JUnit.MoneyTest" />
-        <item itemvalue="JUnit.HelloTest" />
       </list>
     </recent_temporary>
   </component>
