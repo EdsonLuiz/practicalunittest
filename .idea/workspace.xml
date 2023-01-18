@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df5b3dc6-7b0d-46b7-836e-b2503a4cc90d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Test01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ch04/FootballTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ch04/FootballTeam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ch04/FootballTeamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ch04/FootballTeamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +104,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FootballTeamTest.shouldBePosssibleToCompareTeams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practicaltest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ch04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.ch04" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ch04.FootballTeamTest" />
+      <option name="METHOD_NAME" value="shouldBePosssibleToCompareTeams" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoneyIAETest.constructorShouldThrowIAEForInvalidAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practicaltest" />
       <extension name="coverage">
@@ -123,28 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoneyManyParamsAnnotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practicaltest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MoneyManyParamsAnnotationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FootballTeamTest" />
+        <item itemvalue="JUnit.FootballTeamTest.shouldBePosssibleToCompareTeams" />
         <item itemvalue="JUnit.FootballTeamTest.constructorShouldSetGamesWon" />
         <item itemvalue="Application.Test01" />
         <item itemvalue="JUnit.MoneyIAETest.constructorShouldThrowIAEForInvalidAmount" />
-        <item itemvalue="JUnit.MoneyManyParamsAnnotationTest" />
       </list>
     </recent_temporary>
   </component>

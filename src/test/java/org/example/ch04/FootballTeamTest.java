@@ -8,6 +8,7 @@ import static org.assertj.core.api.Assertions.*;
 
 public class FootballTeamTest {
     private static final int THREE_GAMES_WON = 3;
+    private static final int ANY_NUMBER = 123;
     @ParameterizedTest
     @ValueSource(ints = {0, 1, 3, 10})
     void constructorShouldSetGamesWon(int nbOfGamesWon) {
@@ -23,5 +24,12 @@ public class FootballTeamTest {
     void constructorShouldThrowExceptionForIllegalGamesNb(int illegalNbOfGames) {
         assertThatExceptionOfType(IllegalArgumentException.class)
                 .isThrownBy(() -> {new FootballTeam(illegalNbOfGames);});
+    }
+
+    @Test
+    void shouldBePosssibleToCompareTeams() {
+        FootballTeam team = new FootballTeam(ANY_NUMBER);
+
+        assertThat(team).isInstanceOf(Comparable.class);
     }
 }
