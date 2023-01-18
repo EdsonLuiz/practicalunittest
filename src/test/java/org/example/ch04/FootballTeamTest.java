@@ -32,4 +32,14 @@ public class FootballTeamTest {
 
         assertThat(team).isInstanceOf(Comparable.class);
     }
+
+    @Test
+    void teamsWithMoreMatchesWonShouldBeGreater() {
+        FootballTeam team_2 = new FootballTeam(2);
+        FootballTeam team_3 = new FootballTeam(3);
+
+        assertThat(team_3.compareTo(team_2))
+                .as("team with 3 games won should be ranked before team with 2 games won")
+                .isGreaterThan(0);
+    }
 }
