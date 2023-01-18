@@ -1,6 +1,6 @@
 package org.example.ch04;
 
-public class FootballTeam {
+public class FootballTeam implements Comparable<FootballTeam> {
     private int gamesWon;
     public FootballTeam(int gamesWon) {
         if(gamesWon < 0)
@@ -10,5 +10,10 @@ public class FootballTeam {
 
     public int getGamesWon() {
         return gamesWon;
+    }
+
+    @Override
+    public int compareTo(FootballTeam otherTeam) {
+        return 0;
     }
 }
