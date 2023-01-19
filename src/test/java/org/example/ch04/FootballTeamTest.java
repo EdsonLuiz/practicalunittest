@@ -42,4 +42,12 @@ public class FootballTeamTest {
                 .as("team with 3 games won should be ranked before team with 2 games won")
                 .isGreaterThan(0);
     }
+
+    @Test
+    void teamsWithLessMatchesWonShouldBeLesser() {
+        FootballTeam team_2 = new FootballTeam(2);
+        FootballTeam team_3 = new FootballTeam(3);
+
+        assertThat(team_2.compareTo(team_3)).isLessThan(0);
+    }
 }
