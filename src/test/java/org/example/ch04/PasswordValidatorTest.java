@@ -10,4 +10,11 @@ public class PasswordValidatorTest {
 
         assertThat(PasswordValidator.validate(validPassword)).isTrue();
     }
+
+    @Test
+    void shouldNotBeLessThan10CharactersLong() {
+        String invalidPassword = "invalid";
+
+        assertThat(PasswordValidator.validate(invalidPassword)).isFalse();
+    }
 }
